@@ -1,0 +1,24 @@
+{
+   "type": "mysql",
+   "host": "get-mestres.mysql.uhserver.com",
+   "port": 3306,
+   "username": "bmaia1981",
+   "password": "QkZ4:!RD8wBM6np",
+   "database": "get_mestres",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
