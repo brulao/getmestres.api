@@ -1,6 +1,6 @@
-# Awesome Project Build with TypeORM
+# Api do Projeto getMestres
 
-Steps to run this project:
+Para instalar e rodar esse projeto:
 
 1. Run `npm i` command
 2. Setup database settings inside `ormconfig.json` file
